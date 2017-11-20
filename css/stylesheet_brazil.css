@@ -1,0 +1,65 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: white;
+	color: black;
+	font-size: 100%;
+}
+.page-nav ul{
+	list-style: none;
+	display: flex;
+	background-color: gray;
+	height: 20%;
+}
+.page-nav li{
+	flex: 1;
+	border: 1px solid red;
+	text-align: center;
+}
+.page-nav a{
+	text-decoration: none;
+	font-size: 150%;
+	color: black;
+}
+header{
+	border: 1px solid black;
+
+}
+.header-content{
+	text-align: center;
+	font-size: 200%;
+	height: 35rem;
+	background-image: url("../images/waterfalls.jpg");
+	background-size: cover;
+	line-height: 2000%;
+}
+h2{
+	height: 20rem;
+	text-align: center;
+	font-size: 250%;
+	line-height: 750%;
+}
+h2 a{
+	text-decoration: none;
+	color: white;
+}
+#history{
+	background-image: url("../images/old_books.jpg");
+	background-size: cover;
+}
+#landmarks{
+	background-image: url("../images/christ_the_redeemer.jpg");
+	background-size: cover;
+	background-position: center;
+}
+#traditions{
+	background-image: url("../images/carnival.jpg");
+	background-size: cover;
+	background-position: center;
+}
+#cuisine{
+	background-image: url("../images/coffee_beans.jpg");
+	background-size: cover;
+}
