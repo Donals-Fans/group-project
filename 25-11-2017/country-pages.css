@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.nav-bar{
+    border: 1px solid black;
+}
+.nav-bar ul{
+    display: flex;
+}
+.nav-bar ul li{
+    flex: 1;
+
+}
+
+.page-header{
+    border: 1px solid blue;
+    text-align: center;
+    padding: 20% 0% 20% 0%;
+    background-color: aqua;
+}
+.container-content{
+    margin: 0% 10% 0% 10%;
+}
+.container-content h2{
+    margin-top: 5%;
+    padding-left: 10%    
+}
+.content{
+    padding: 5%;
+    font-size: 1.4rem;
+}
