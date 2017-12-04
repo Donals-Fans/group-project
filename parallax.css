@@ -1,0 +1,26 @@
+.container{
+	width:100%
+	margin: 0 auto;
+	background: #f912;
+	font-size: 24px;
+	padding: 25px;
+	font-family: "Handlee"
+}
+.para{
+	background: url("html/images/waterfalls.jpg") no-repeat center;
+	background-size: cover;
+	background-attachment:  fixed;
+	height:500px;
+}
+.para1{
+	background: url("html/images/quindim.jpg") no-repeat center;
+	background-size: cover;
+	background-attachment:  fixed;
+	height:500px;
+}
+.para2{
+	background: url("html/images/carnival.jpg") no-repeat center;
+	background-size: cover;
+	background-attachment:  fixed;
+	height:500px;
+}
