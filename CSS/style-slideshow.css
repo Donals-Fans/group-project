@@ -1,0 +1,60 @@
+html {
+	background-image: url("../images/back2.png");
+	font-family:Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+	height:100%;
+	width:100%;
+}
+
+body {
+	padding:0;
+	margin:0;
+	height:100%;
+	width:100%;
+}
+main {
+	height:100%;
+}
+.page-header{
+	height:60%;
+	border: 2px solid red;
+}
+.slideshow h1{
+	position: absolute;
+	margin-top:11%;
+	margin-left:45%;
+	border: 2px solid red;
+	z-index:1;
+}
+.slide{
+	height:60%;
+	width:100%;
+	display:flex;
+}
+.slideshow img{
+	object-fit:cover;
+}
+
+@keyframes fade{
+	0% {opacity: 0;}
+	8.33% {opacity: 1;}
+	33.32% {opacity: 1;}
+	41.65% {opacity: 0;}
+	100% {opacity: 0;}
+}
+.slideshow .slide{
+	position: absolute;
+	opacity: 0;
+	animation-name: fade;
+	animation-duration: 12s;
+	animation-iteration-count: infinite;
+}
+	
+.slideshow .slide:nth-child(1) {animation-delay: 0s;}
+.slideshow .slide:nth-child(2) {animation-delay: 4s;}
+.slideshow .slide:nth-child(3) {animation-delay: 8s;}
+	
+
+
+
+	
+	
